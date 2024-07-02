@@ -46,13 +46,13 @@ _Results:_
 * Chi-Square Test
     * Chi Square test between Airlines and the Cancellation Rate.
     * Results:
-    Chi-square statistic: 6260.8239987525485 P-value: 0.0 Degrees of freedom: 17
-    Interpretation: There is a statiscally significant difference in flight cancellation across different airlines.     
+      * Chi-square statistic: 6260.8239987525485 P-value: 0.0 Degrees of freedom: 17
+      * Interpretation: There is a statiscally significant difference in flight cancellation across different airlines.     
     
     * Chi Square test between Airport and the Cancellation Rate.
     * Results:
-    Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
-    Interpretation: There is a statiscally significant difference in flight cancellation across different airports.     
+      * Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
+      * Interpretation: There is a statiscally significant difference in flight cancellation across different airports.     
 
 _Conclusion:_
 
@@ -79,13 +79,40 @@ _Erfolge:_
 
 _Ergebnisse:_
 
-F-Statistik: 5,43
-p-Wert: 0,0021
-Interpretation: Es gibt einen signifikanten Unterschied bei Flugverspätungen zwischen verschiedenen Fluggesellschaften.
+_Results:_
 
-Chi-Quadrat-Test
-Der Chi-Quadrat-Test wurde angewendet, um die Unabhängigkeit kategorialer Variablen zu bewerten. Dies hilft zu identifizieren, ob Variablen wie Wochentag und Flugstatus (pünktlich oder verspätet) miteinander in Beziehung stehen.
+* Anteil der annullierten Flüge:
 
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/3e37ff0a-dd2a-4d70-af94-78be89b398b0)
+
+* Anteil der annullierten Flüge nach Fluggesellschaften:
+
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/91d8b9cc-f202-4a00-8464-f19aff4abb43)
+
+* Anteil der annullierten Flüge nach Flughäfen:
+
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/1e7f03c6-7872-4a70-9fb1-4b57b762d6e5)
+
+* Anzahl der Annullierungen nach Jahr und Fluggesellschaft bei den Top-Drei annullierten Fluggesellschaften:
+* 
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/36f95847-8e75-402d-8171-ed5791757fbb)
+
+* ANOVA:
+   * Anova zwischen Verspätungszeiten und Fluggesellschaften
+    Ergebnisse:
+    F-statistic = 1182.5929791586866, p-value: 0.0021
+    Interpretation: Es gibt einen statistisch signifikanten Unterschied bei Flugverspätungen zwischen verschiedenen Fluggesellschaften.
+
+* Chi-Square Test
+    * Chi-Square Test zwischen Fluggesellschaften und der Annullierungsrate.
+    * Ergebnisse:
+      * Chi-square statistic: 6260.8239987525485 P-value: 0.0 Degrees of freedom: 17
+      * Interpretation: Es gibt einen statistisch signifikanten Unterschied bei Flugannullierungen zwischen verschiedenen Fluggesellschaften.    
+    
+    * Chi Square test zwischen Flughafen und der Annullierungsrate.
+    * Ergebnisse:
+      * Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
+      * Interpretation:Es gibt einen statistisch signifikanten Unterschied bei Flugannullierungen zwischen verschiedenen Flughäfen.  
 _Fazit:_
 
 Dieses Projekt demonstriert den Prozess der Bereinigung, Analyse und Visualisierung eines großen Flugdatenbestands, um wertvolle Erkenntnisse zu gewinnen. Die Ergebnisse können zur Verbesserung des Flugbetriebs und der Passagiererfahrung genutzt werden.
