@@ -28,6 +28,7 @@ Interpretation: There is a significant difference in flight delays across differ
 
 Chi-Square Test
 The Chi-Square test was applied to evaluate the independence of categorical variables. This helps in identifying whether variables like day of the week and flight status (on-time or delayed) are related.
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/3e37ff0a-dd2a-4d70-af94-78be89b398b0)
 
 
 _Conclusion:_
