@@ -56,7 +56,8 @@ _Results:_
 
 _Conclusion:_
 
-This project demonstrates the process of cleaning, analyzing, and visualizing a large flight dataset to uncover valuable insights. The findings can be used to improve flight operations and passenger experience.
+* This project demonstrates the process of cleaning, analyzing, and visualizing a large flight dataset to uncover valuable insights. The findings can be used to improve flight operations and passenger experience.
+
 
 # German version - Flugdatenanalyse
 
@@ -78,8 +79,6 @@ _Erfolge:_
 * Entwicklung mehrerer Visualisierungen zur klaren Darstellung der Ergebnisse.
 
 _Ergebnisse:_
-
-_Results:_
 
 * Anteil der annullierten Flüge:
 
@@ -113,9 +112,10 @@ _Results:_
     * Ergebnisse:
       * Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
       * Interpretation:Es gibt einen statistisch signifikanten Unterschied bei Flugannullierungen zwischen verschiedenen Flughäfen.  
+
 _Fazit:_
 
-Dieses Projekt demonstriert den Prozess der Bereinigung, Analyse und Visualisierung eines großen Flugdatenbestands, um wertvolle Erkenntnisse zu gewinnen. Die Ergebnisse können zur Verbesserung des Flugbetriebs und der Passagiererfahrung genutzt werden.
+* Dieses Projekt demonstriert den Prozess der Bereinigung, Analyse und Visualisierung eines großen Flugdatenbestands, um wertvolle Erkenntnisse zu gewinnen. Die Ergebnisse können zur Verbesserung des Flugbetriebs und der Passagiererfahrung genutzt werden.
 
 
 
