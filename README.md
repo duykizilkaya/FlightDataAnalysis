@@ -22,14 +22,37 @@ _Achievements:_
   
 _Results:_
 
-F-statistic: 5.43
-p-value: 0.0021
-Interpretation: There is a significant difference in flight delays across different airlines.
+* Proportion of cancelled Flights:
 
-Chi-Square Test
-The Chi-Square test was applied to evaluate the independence of categorical variables. This helps in identifying whether variables like day of the week and flight status (on-time or delayed) are related.
 ![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/3e37ff0a-dd2a-4d70-af94-78be89b398b0)
 
+* Proportion of cancelled Flights by Airlines:
+
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/91d8b9cc-f202-4a00-8464-f19aff4abb43)
+
+* Proportion of cancelled Flights by Airports:
+
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/1e7f03c6-7872-4a70-9fb1-4b57b762d6e5)
+
+* Number of Cancellations by Year and Airline in the Top Three Cancelled Airline:
+![download](https://github.com/duykizilkaya/FlightDataAnalysis/assets/169436713/36f95847-8e75-402d-8171-ed5791757fbb)
+
+* ANOVA:
+   * Anova Between Delay Times and Airlines
+    Results:
+    F-statistic = 1182.5929791586866, p-value: 0.0021
+    Interpretation: There is a statiscally significant difference in flight delays across different airlines.
+
+* Chi-Square Test
+    * Chi Square test between Airlines and the Cancellation Rate.
+    * Results:
+    Chi-square statistic: 6260.8239987525485 P-value: 0.0 Degrees of freedom: 17
+    Interpretation: There is a statiscally significant difference in flight cancellation across different airlines.     
+    
+    * Chi Square test between Airport and the Cancellation Rate.
+    * Results:
+    Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
+    Interpretation: There is a statiscally significant difference in flight cancellation across different airports.     
 
 _Conclusion:_
 
