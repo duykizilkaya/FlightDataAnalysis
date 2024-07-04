@@ -46,13 +46,18 @@ _Results:_
 * Chi-Square Test
     * Chi Square test between Airlines and the Cancellation Rate.
     * Results:
-      * Chi-square statistic: 6260.8239987525485 P-value: 0.0 Degrees of freedom: 17
+      * Chi-square statistic: 6235.42531094938 P-value: 0.0 Degrees of freedom: 17
       * Interpretation: There is a statiscally significant difference in flight cancellation across different airlines.     
     
     * Chi Square test between Airport and the Cancellation Rate.
     * Results:
-      * Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
-      * Interpretation: There is a statiscally significant difference in flight cancellation across different airports.     
+      * Chi-square statistic: 6970.551315709208 P-value: 0.0 Degrees of freedom: 379
+      * Interpretation: There is a statiscally significant difference in flight cancellation across different airports.
+
+    * Chi Square test between Airlines with the top 3 Cancellation Rate and Year
+    * Results
+      * Chi-square statistic: 0.006960290029202889 P-value: 0.9999999999939051 Degrees of freedom: 8
+      * Interpretation: There is no statiscally significant difference between arlines with the top 3 cancellation rate and year .
 
 _Conclusion:_
 
@@ -108,10 +113,15 @@ _Ergebnisse:_
       * Chi-square statistic: 6260.8239987525485 P-value: 0.0 Degrees of freedom: 17
       * Interpretation: Es gibt einen statistisch signifikanten Unterschied bei Flugannullierungen zwischen verschiedenen Fluggesellschaften.    
     
-    * Chi Square test zwischen Flughafen und der Annullierungsrate.
+    * Chi-Square test zwischen Flughafen und der Annullierungsrate.
     * Ergebnisse:
       * Chi-square statistic: 6972.479475542252 P-value: 0.0 Degrees of freedom: 379
-      * Interpretation:Es gibt einen statistisch signifikanten Unterschied bei Flugannullierungen zwischen verschiedenen Flughäfen.  
+      * Interpretation:Es gibt einen statistisch signifikanten Unterschied bei Flugannullierungen zwischen verschiedenen Flughäfen.
+
+    * Chi-Square Test zwischen den Fluggesellschaften mit den drei höchsten Stornierungsraten und dem Jahr
+    * Ergebnisse
+      * Chi-square statistic: 0.006960290029202889 P-value: 0.9999999999939051 Degrees of freedom: 8
+      * Interpretation: Es gibt keinen statistisch signifikanten Unterschied zwischen den Fluggesellschaften mit den drei höchsten Stornierungsraten und dem Jahr.
 
 _Fazit:_
 
